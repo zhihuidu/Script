@@ -1,0 +1,1 @@
+--config=ppx-basic-4.cfg --size=test --action onlyrun --noreportable

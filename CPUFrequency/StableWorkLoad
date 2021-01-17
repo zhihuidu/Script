@@ -1,0 +1,9 @@
+let Iter=1
+let x=1256
+while [ $Iter -ne 0 ]
+do
+let y=$x*366
+let x=$x+1
+let z=$y*$x+1110
+done
+

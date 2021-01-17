@@ -1,0 +1,26 @@
+
+Mon Mar 10 03:26:33 PDT 2014
+[PPX_TSC]start=0 stop=5855488851938 region=perlbench
+[PPX_TSC]start=0 stop=7590725745380 region=bzip2
+[PPX_TSC]start=0 stop=9027515024195 region=gcc
+[PPX_TSC]start=0 stop=9923697558089 region=mcf
+[PPX_TSC]start=0 stop=13914878825956 region=gobmk
+[PPX_TSC]start=0 stop=14574577153791 region=hmmer
+[PPX_TSC]start=0 stop=16139324075314 region=sjeng
+[PPX_TSC]start=0 stop=16632581138995 region=libquantum
+[PPX_TSC]start=0 stop=23551829253825 region=h264ref
+[PPX_TSC]start=0 stop=25062191511926 region=omnetpp
+[PPX_TSC]start=0 stop=26275588895515 region=astar
+[PPX_TSC]start=0 stop=27630870076121 region=xalancbmk
+[PPX_LV]region=perlbench avgPower=36.527302201261826 time=382.0740000000005
+[PPX_LV]region=bzip2 avgPower=35.806251573131846 time=496.7810000000027
+[PPX_LV]region=gcc avgPower=32.19095028898517 time=411.41100000000006
+[PPX_LV]region=mcf avgPower=31.348393846318114 time=256.6310000000012
+[PPX_LV]region=gobmk avgPower=34.76641508024403 time=1142.797000000006
+[PPX_LV]region=hmmer avgPower=38.08374807434926 time=188.89600000000064
+[PPX_LV]region=sjeng avgPower=38.63238524638011 time=448.0500000000029
+[PPX_LV]region=libquantum avgPower=29.35881529548168 time=141.237000000001
+[PPX_LV]region=h264ref avgPower=35.42748290157299 time=1981.274000000005
+[PPX_LV]region=omnetpp avgPower=0.0 time=432.4779999999955
+[PPX_LV]region=astar avgPower=0.0 time=347.4429999999993
+[PPX_LV]region=xalancbmk avgPower=0.0 time=388.07100000000355

@@ -1,0 +1,9 @@
+				echo "export PPX_USE_REMOTE=1">>SetUp.sh
+				echo "export PPX_LOGFILE=$CreateTime-$1-$j-$Fre.power">>SetUp.sh
+				echo "echo >> \$PPX_LOGFILE">>SetUp.sh
+				echo "date >> \$PPX_LOGFILE ">>SetUp.sh
+
+				echo "BeginRecording ">>SetUp.sh
+				echo "export PPX_REGION_LABEL=${j}" >>SetUp.sh
+				echo "RegisterRegion ${j} ">>SetUp.sh
+				echo "StartRegion ">>SetUp.sh

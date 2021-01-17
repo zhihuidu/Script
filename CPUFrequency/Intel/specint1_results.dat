@@ -1,0 +1,10 @@
+
+Mon Aug 18 09:14:54 PDT 2014
+
+Mon Aug 18 09:24:47 PDT 2014
+[PPX_TSC]start=0 stop=3618870791577 region=bzip2
+[PPX_LV]region=bzip2 avgPower=9.663954985128287 time=5.002999999996973
+
+Mon Aug 18 09:26:43 PDT 2014
+[PPX_TSC]start=0 stop=4094405321486 region=bzip2
+[PPX_LV]region=bzip2 avgPower=13.308243455602106 time=25.177999999999884

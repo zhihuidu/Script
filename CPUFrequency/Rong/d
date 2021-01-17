@@ -1,0 +1,11 @@
+                TmpStr=${j##*$i-}
+                Frequency=${TmpStr%-*}
+                StrLen=${#Frequency}
+                let half=$StrLen/2
+		if [[ $i == "sandy0" ]]
+		then
+                	Frequency=${Frequency:0:$half}
+		else
+                	let half=$half+1
+                	Frequency=${Frequency:$half}
+		fi

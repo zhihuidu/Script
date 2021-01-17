@@ -1,0 +1,2 @@
+# 1:Power, 2:Time , 3:Energy, 4:AvgFre, 5:DiffMaxAvg, 6:DiffMaxAvg, 7:DiffMaxMin,8:DiffAvgMin,9:VarianceFre, 10:SDFre, 11:MaxFre,12:MinFre, 13:FreDis >>$i.${node}avg.txt
+		echo  $Power " " $Time " " $Energy " " $AvgFre " " $DiffMaxAvg " " $DiffMaxAvg " " $DiffMaxMin " " $DiffAvgMin " " $VarianceFre " " $SDFre " " $MaxFre " " $MinFre " " $FreDis >>$i.${node}avg.txt

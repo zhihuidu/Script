@@ -1,0 +1,4 @@
+#ExeParameters="--config=Tong-linux.cfg --nobuild --action onlyrun --size=test --noreportable"
+#ExeParameters=" --config=ppx-SNB-4.cfg --size=test --noreportable --tune=base "
+#ExeParameters=" --config=ppx-basic-4.cfg --size=test --noreportable --tune=base "
+ExeParameters=" --config=ppx-basic-4.cfg --nobuild --action onlyrun --size=test --noreportable "
