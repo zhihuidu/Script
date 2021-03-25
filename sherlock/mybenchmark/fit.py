@@ -117,7 +117,7 @@ def func(data, a, b, c):
     #return (a*x1/x2)+b*x1*x2+c
     #return (a*x1)+b*x1*x2+c
     #return (a*x1)+b*x2+c
-    return (a*x1/x2)+b*x1*x2+c
+    return x2*(x1^(log(10+a*x2,10))+b*x2+c)
 
 
 if __name__ == "__main__":    

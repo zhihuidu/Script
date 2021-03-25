@@ -1,0 +1,98 @@
+               0   1      2      3      4       5
+0   delaunay_n10   4     98    138    150    2047
+1   delaunay_n10   8     63     72     80    2046
+2   delaunay_n10  16     35     41     41    2044
+3   delaunay_n10  32     20     12     16    2043
+4   delaunay_n10  64      3      3     10    2042
+5   delaunay_n11   4    195    302    294    4104
+6   delaunay_n11   8     95    151    144    4103
+7   delaunay_n11  16     62     71     63    4101
+8   delaunay_n11  32     26     32     29    4100
+9   delaunay_n11  64     12     24     14    4009
+10  delaunay_n12   4    258    607    575    8215
+11  delaunay_n12   8    163    306    293    8214
+12  delaunay_n12  16     90    139    147    8212
+13  delaunay_n12  32     52     78     76    8211
+14  delaunay_n12  64     51     42     32    8210
+15  delaunay_n13   4    646   1160   1197   16442
+16  delaunay_n13   8    335    598    588   16441
+17  delaunay_n13  16    187    297    304   16439
+18  delaunay_n13  32    108    144    153   16438
+19  delaunay_n13  64     68     62     81   16437
+20  delaunay_n14   4   1099   2356   2299   32921
+21  delaunay_n14   8    507   1205   1184   32920
+22  delaunay_n14  16    269    568    579   32918
+23  delaunay_n14  32    135    294    303   32917
+24  delaunay_n14  64     93    144    137   32916
+25  delaunay_n15   4   2085   4571   4585   65872
+26  delaunay_n15   8    943   2335   2320   65871
+27  delaunay_n15  16    486   1140   1159   65869
+28  delaunay_n15  32    265    568    580   65868
+29  delaunay_n15  64    137    282    299   65867
+30  delaunay_n16   4   4168   9648   9510  131842
+31  delaunay_n16   8   2170   4666   4601  131841
+32  delaunay_n16  16   1063   2387   2348  131839
+33  delaunay_n16  32    569   1174   1169  131838
+34  delaunay_n16  64    326    576    580  131837
+35  delaunay_n17   4   8154  18873  18938  263620
+36  delaunay_n17   8   4012   9543   9501  263619
+37  delaunay_n17  16   2132   4595   4773  263617
+38  delaunay_n17  32   1042   2288   2347  263616
+39  delaunay_n17  64    534   1156   1180  263615
+40  delaunay_n18   4  16904  37774  38061  527234
+41  delaunay_n18   8   8155  19005  19107  527233
+42  delaunay_n18  16   4176   9454   9562  527231
+43  delaunay_n18  32   2097   4674   4686  527230
+44  delaunay_n18  64   1004   2369   2348  527229
+relative error=
+delaunay_n10             , factor=  4, Err= 3.97%, head=    392, mid=    552, tail=    600, exact=   2047
+delaunay_n10             , factor=  8, Err=13.26%, head=    504, mid=    576, tail=    640, exact=   2046
+delaunay_n10             , factor= 16, Err=21.40%, head=    560, mid=    656, tail=    656, exact=   2044
+delaunay_n10             , factor= 32, Err= 5.61%, head=    640, mid=    384, tail=    512, exact=   2043
+delaunay_n10             , factor= 64, Err=-19.03%, head=    192, mid=    192, tail=    640, exact=   2042
+delaunay_n11             , factor=  4, Err= 6.04%, head=    780, mid=   1208, tail=   1176, exact=   4104
+delaunay_n11             , factor=  8, Err= 5.05%, head=    760, mid=   1208, tail=   1152, exact=   4103
+delaunay_n11             , factor= 16, Err= 1.61%, head=    992, mid=   1136, tail=   1008, exact=   4101
+delaunay_n11             , factor= 32, Err=-8.94%, head=    832, mid=   1024, tail=    928, exact=   4100
+delaunay_n11             , factor= 64, Err=16.92%, head=    768, mid=   1536, tail=    896, exact=   4009
+delaunay_n12             , factor=  4, Err= 0.90%, head=   1032, mid=   2428, tail=   2300, exact=   8215
+delaunay_n12             , factor=  8, Err= 4.40%, head=   1304, mid=   2448, tail=   2344, exact=   8214
+delaunay_n12             , factor= 16, Err= 1.58%, head=   1440, mid=   2224, tail=   2352, exact=   8212
+delaunay_n12             , factor= 32, Err=10.00%, head=   1664, mid=   2496, tail=   2432, exact=   8211
+delaunay_n12             , factor= 64, Err=35.89%, head=   3264, mid=   2688, tail=   2048, exact=   8210
+delaunay_n13             , factor=  4, Err= 2.54%, head=   2584, mid=   4640, tail=   4788, exact=  16442
+delaunay_n13             , factor=  8, Err= 3.36%, head=   2680, mid=   4784, tail=   4704, exact=  16441
+delaunay_n13             , factor= 16, Err= 6.06%, head=   2992, mid=   4752, tail=   4864, exact=  16439
+delaunay_n13             , factor= 32, Err= 7.49%, head=   3456, mid=   4608, tail=   4896, exact=  16438
+delaunay_n13             , factor= 64, Err=11.51%, head=   4352, mid=   3968, tail=   5184, exact=  16437
+delaunay_n14             , factor=  4, Err=-0.49%, head=   4396, mid=   9424, tail=   9196, exact=  32921
+delaunay_n14             , factor=  8, Err= 1.06%, head=   4056, mid=   9640, tail=   9472, exact=  32920
+delaunay_n14             , factor= 16, Err=-2.04%, head=   4304, mid=   9088, tail=   9264, exact=  32918
+delaunay_n14             , factor= 32, Err= 1.77%, head=   4320, mid=   9408, tail=   9696, exact=  32917
+delaunay_n14             , factor= 64, Err= 0.16%, head=   5952, mid=   9216, tail=   8768, exact=  32916
+delaunay_n15             , factor=  4, Err=-2.78%, head=   8340, mid=  18284, tail=  18340, exact=  65872
+delaunay_n15             , factor=  8, Err=-2.12%, head=   7544, mid=  18680, tail=  18560, exact=  65871
+delaunay_n15             , factor= 16, Err=-2.84%, head=   7776, mid=  18240, tail=  18544, exact=  65869
+delaunay_n15             , factor= 32, Err=-2.13%, head=   8480, mid=  18176, tail=  18560, exact=  65868
+delaunay_n15             , factor= 64, Err=-0.26%, head=   8768, mid=  18048, tail=  19136, exact=  65867
+delaunay_n16             , factor=  4, Err= 1.36%, head=  16672, mid=  38592, tail=  38040, exact= 131842
+delaunay_n16             , factor=  8, Err=-1.27%, head=  17360, mid=  37328, tail=  36808, exact= 131841
+delaunay_n16             , factor= 16, Err= 0.52%, head=  17008, mid=  38192, tail=  37568, exact= 131839
+delaunay_n16             , factor= 32, Err= 0.08%, head=  18208, mid=  37568, tail=  37408, exact= 131838
+delaunay_n16             , factor= 64, Err= 0.37%, head=  20864, mid=  36864, tail=  37120, exact= 131837
+delaunay_n17             , factor=  4, Err=-0.17%, head=  32616, mid=  75492, tail=  75752, exact= 263620
+delaunay_n17             , factor=  8, Err= 0.37%, head=  32096, mid=  76344, tail=  76008, exact= 263619
+delaunay_n17             , factor= 16, Err=-0.14%, head=  34112, mid=  73520, tail=  76368, exact= 263617
+delaunay_n17             , factor= 32, Err=-1.45%, head=  33344, mid=  73216, tail=  75104, exact= 263616
+delaunay_n17             , factor= 64, Err=-0.57%, head=  34176, mid=  73984, tail=  75520, exact= 263615
+delaunay_n18             , factor=  4, Err= 0.47%, head=  67616, mid= 151096, tail= 152244, exact= 527234
+delaunay_n18             , factor=  8, Err= 0.58%, head=  65240, mid= 152040, tail= 152856, exact= 527233
+delaunay_n18             , factor= 16, Err= 0.68%, head=  66816, mid= 151264, tail= 152992, exact= 527231
+delaunay_n18             , factor= 32, Err=-0.81%, head=  67104, mid= 149568, tail= 149952, exact= 527230
+delaunay_n18             , factor= 64, Err=-0.41%, head=  64256, mid= 151616, tail= 150272, exact= 527229
+AbsMaxError= 0.3588965366297165
+AbsMinError= 0.0008103715616390981
+AbsMean= 0.04677649553511628
+RMSE:1530.73
+R-squared:1.00
+[0.72014586 1.14351868 2.02448028]
