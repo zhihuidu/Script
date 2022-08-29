@@ -1,0 +1,98 @@
+                           0   1       2      3       4        5
+0                     amazon   4    4944   6383   18381   667259
+1                     amazon   8    1427   1752    7351   667258
+2                     amazon  16     621    617    3614   667256
+3                     amazon  32     331    290    2250   667255
+4                     amazon  64     177    153    1546   667254
+5                       dblp   4   20269  41390  168996  2225882
+6                       dblp   8    6876  17043   67782  2225881
+7                       dblp  16    2684   4846   20310  2225879
+8                       dblp  32    1097   2726   11456  2225878
+9                       dblp  64     545   2325    2678  2225877
+10              ca-HepTh.txt   4    1267   1072    3853    28677
+11              ca-HepTh.txt   8     642    591    1741    28676
+12              ca-HepTh.txt  16     456    390     480    28674
+13              ca-HepTh.txt  32     391    267     219    28673
+14              ca-HepTh.txt  64     260    217     157    28672
+15            ca-CondMat.txt   4    7960  10280   12051   174578
+16            ca-CondMat.txt   8    4264   4970    5543   174577
+17            ca-CondMat.txt  16    2862   2847    2655   174575
+18            ca-CondMat.txt  32    1888   1693    1403   174574
+19            ca-CondMat.txt  64    1179   1292     845   174573
+20            ca-AstroPh.txt   4   75594  78234   78855  1374119
+21            ca-AstroPh.txt   8   41331  47387   40395  1374118
+22            ca-AstroPh.txt  16   24828  28244   20468  1374116
+23            ca-AstroPh.txt  32   14984  16692   11128  1374115
+24            ca-AstroPh.txt  64    6450   6507    6322  1374114
+25           email-Enron.txt   4   70077  28783   25933   727044
+26           email-Enron.txt   8   22331  13593   15197   727043
+27           email-Enron.txt  16   11640   8381    5002   727041
+28           email-Enron.txt  32    6681   5212    2392   727040
+29           email-Enron.txt  64    3561   2912    1056   727039
+30               ca-GrQc.txt   4    1193   3374    5300    48265
+31               ca-GrQc.txt   8     671   2131    1096    48264
+32               ca-GrQc.txt  16     346    880     733    48262
+33               ca-GrQc.txt  32     276    694     385    48261
+34               ca-GrQc.txt  64      64    221     150    48260
+35              ca-HepPh.txt   4  118540  74598  187003  3345241
+36              ca-HepPh.txt   8   44937  33404   64281  3345240
+37              ca-HepPh.txt  16   16775  16426   35817  3345238
+38              ca-HepPh.txt  32    3708   6643    8724  3345237
+39              ca-HepPh.txt  64     705   3707    2899  3345236
+40  loc-brightKite_edges.txt   4   12232   4435    2489   301812
+41  loc-brightKite_edges.txt   8    5266   3217    1652   301811
+42  loc-brightKite_edges.txt  16    2579   1673     927   301809
+43  loc-brightKite_edges.txt  32    1061   1335     380   301808
+44  loc-brightKite_edges.txt  64     552    856     280   301807
+relative error=
+amazon                   , factor=  4, Err=-52.09%, head=  19776, mid=  25532, tail=  73524, exact= 667259
+amazon                   , factor=  8, Err=-62.88%, head=  11416, mid=  14016, tail=  58808, exact= 667258
+amazon                   , factor= 16, Err=-65.68%, head=   9936, mid=   9872, tail=  57824, exact= 667256
+amazon                   , factor= 32, Err=-55.57%, head=  10592, mid=   9280, tail=  72000, exact= 667255
+amazon                   , factor= 64, Err=-38.69%, head=  11328, mid=   9792, tail=  98944, exact= 667254
+dblp                     , factor=  4, Err=46.34%, head=  81076, mid= 165560, tail= 675984, exact=2225882
+dblp                     , factor=  8, Err=21.84%, head=  55008, mid= 136344, tail= 542256, exact=2225881
+dblp                     , factor= 16, Err=-31.60%, head=  42944, mid=  77536, tail= 324960, exact=2225879
+dblp                     , factor= 32, Err=-18.35%, head=  35104, mid=  87232, tail= 366592, exact=2225878
+dblp                     , factor= 64, Err=-36.74%, head=  34880, mid= 148800, tail= 171392, exact=2225877
+ca-HepTh.txt             , factor=  4, Err=123.48%, head=   5068, mid=   4288, tail=  15412, exact=  28677
+ca-HepTh.txt             , factor=  8, Err=91.91%, head=   5136, mid=   4728, tail=  13928, exact=  28676
+ca-HepTh.txt             , factor= 16, Err=10.23%, head=   7296, mid=   6240, tail=   7680, exact=  28674
+ca-HepTh.txt             , factor= 32, Err=87.89%, head=  12512, mid=   8544, tail=   7008, exact=  28673
+ca-HepTh.txt             , factor= 64, Err=187.57%, head=  16640, mid=  13888, tail=  10048, exact=  28672
+ca-CondMat.txt           , factor=  4, Err=28.21%, head=  31840, mid=  41120, tail=  48204, exact= 174578
+ca-CondMat.txt           , factor=  8, Err= 4.11%, head=  34112, mid=  39760, tail=  44344, exact= 174577
+ca-CondMat.txt           , factor= 16, Err=-7.42%, head=  45792, mid=  45552, tail=  42480, exact= 174575
+ca-CondMat.txt           , factor= 32, Err=48.75%, head=  60416, mid=  54176, tail=  44896, exact= 174574
+ca-CondMat.txt           , factor= 64, Err=140.51%, head=  75456, mid=  82688, tail=  54080, exact= 174573
+ca-AstroPh.txt           , factor=  4, Err=-24.78%, head= 302376, mid= 312936, tail= 315420, exact=1374119
+ca-AstroPh.txt           , factor=  8, Err=-8.72%, head= 330648, mid= 379096, tail= 323160, exact=1374118
+ca-AstroPh.txt           , factor= 16, Err=42.20%, head= 397248, mid= 451904, tail= 327488, exact=1374116
+ca-AstroPh.txt           , factor= 32, Err=89.90%, head= 479488, mid= 534144, tail= 356096, exact=1374115
+ca-AstroPh.txt           , factor= 64, Err=-3.83%, head= 412800, mid= 416448, tail= 404608, exact=1374114
+email-Enron.txt          , factor=  4, Err=53.83%, head= 280308, mid= 115132, tail= 103732, exact= 727044
+email-Enron.txt          , factor=  8, Err=-3.64%, head= 178648, mid= 108744, tail= 121576, exact= 727043
+email-Enron.txt          , factor= 16, Err=41.84%, head= 186240, mid= 134096, tail=  80032, exact= 727041
+email-Enron.txt          , factor= 32, Err=90.28%, head= 213792, mid= 166784, tail=  76544, exact= 727040
+email-Enron.txt          , factor= 64, Err=125.12%, head= 227904, mid= 186368, tail=  67584, exact= 727039
+ca-GrQc.txt              , factor=  4, Err=187.83%, head=   4772, mid=  13496, tail=  21200, exact=  48265
+ca-GrQc.txt              , factor=  8, Err=79.42%, head=   5368, mid=  17048, tail=   8768, exact=  48264
+ca-GrQc.txt              , factor= 16, Err=90.96%, head=   5536, mid=  14080, tail=  11728, exact=  48262
+ca-GrQc.txt              , factor= 32, Err=116.81%, head=   8832, mid=  22208, tail=  12320, exact=  48261
+ca-GrQc.txt              , factor= 64, Err=85.67%, head=   4096, mid=  14144, tail=   9600, exact=  48260
+ca-HepPh.txt             , factor=  4, Err=16.59%, head= 474160, mid= 298392, tail= 748012, exact=3345241
+ca-HepPh.txt             , factor=  8, Err=-27.47%, head= 359496, mid= 267232, tail= 514248, exact=3345240
+ca-HepPh.txt             , factor= 16, Err=-36.79%, head= 268400, mid= 262816, tail= 573072, exact=3345238
+ca-HepPh.txt             , factor= 32, Err=-51.26%, head= 118656, mid= 212576, tail= 279168, exact=3345237
+ca-HepPh.txt             , factor= 64, Err=-44.97%, head=  45120, mid= 237248, tail= 185536, exact=3345236
+loc-brightKite_edges.txt , factor=  4, Err=-19.84%, head=  48928, mid=  17740, tail=   9956, exact= 301812
+loc-brightKite_edges.txt , factor=  8, Err=-20.25%, head=  42128, mid=  25736, tail=  13216, exact= 301811
+loc-brightKite_edges.txt , factor= 16, Err=-23.30%, head=  41264, mid=  26768, tail=  14832, exact= 301809
+loc-brightKite_edges.txt , factor= 32, Err= 0.83%, head=  33952, mid=  42720, tail=  12160, exact= 301808
+loc-brightKite_edges.txt , factor= 64, Err= 5.84%, head=  35328, mid=  54784, tail=  17920, exact= 301807
+AbsMaxError= 1.878331447519158
+AbsMinError= 0.008286775414582396
+AbsMean= 0.5448596906108762
+RMSE:573479.08
+R-squared:0.72
+[-7.60082072  6.46849288  4.14599075]
