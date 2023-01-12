@@ -1,0 +1,20 @@
+#!/bin/bash
+
+NODES=("node01" "node02" "node03" "node04" "node05" "node06" "node07" "node08" "node09" "node10" "node11" "node12" "node13" "node14" "node15" "node16" "node17" "node18" "node19" "node20" "node21" "node22" "node23" "node24" "node25" "node26" "node27" "node28" "node29" "node30" "node31" "node32")
+
+echo "the node to be killed is $1"
+node=$1
+if true ; then 
+    echo "ssh ${node} ps -u zhihui|sed 's/\|/ /'|awk '{print $1}'>tmpid"
+    ssh ${node} ps -u zhihui|sed 's/\|/ /'|awk '{print $1}'>tmpid
+    echo "sed 1d tmpid>tmpid2"
+    sed 1d tmpid>tmpid2
+    echo ""
+    echo "Now I will clean my processes on $node"
+    for i in `cat tmpid2`
+    do
+      echo "ssh ${node} kill  $i"
+      ssh ${node} kill  $i
+    done
+    #rm tmpid tmpid2
+fi

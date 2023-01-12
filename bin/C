@@ -1,0 +1,4 @@
+source ~/thomas_setup_chapel_multilocale.sh
+salloc -N 1
+make
+exit
