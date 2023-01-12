@@ -1,0 +1,2 @@
+source /rhome/zhihui/setup_chapel_multilocale.sh
+make
