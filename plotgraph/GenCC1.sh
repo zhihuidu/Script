@@ -6,7 +6,7 @@ rm -f tmp2
 grep "Number of iterations" $1| cut -d "=" -f2 |cut -d " " -f2 |tee -a tmp2
 rm -f tmp22
 #pr -ts" " --columns $2 tmp2>tmp22
-awk 'ORS=NR%7?" ":"\n"' <tmp2 >tmp22
+awk 'ORS=NR%8?" ":"\n"' <tmp2 >tmp22
 rm -f tmp3
 grep "cc: " $1  | cut -d ":" -f5 |cut -d " " -f2 |tee -a tmp3 
 rm -f tmp32
