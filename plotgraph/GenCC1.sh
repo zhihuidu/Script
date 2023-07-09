@@ -7,9 +7,9 @@ grep "Number of iterations" $1| cut -d "=" -f2 |cut -d " " -f2 |tee -a tmp2
 rm -f tmp22
 #pr -ts" " --columns $2 tmp2>tmp22
 awk 'ORS=NR%8?" ":"\n"' <tmp2 >tmp22
-rm -f tmp3 tmp2
+rm -f tmp2 tmp3
 grep "cc: " $1  | cut -d ":" -f5 |cut -d " " -f2 |tee -a tmp3 
-rm -f tmp33 tmp3
+rm -f tmp33 
 #pr -ts" " --columns $2 tmp3>tmp32
 awk 'ORS=NR%8?" ":"\n"' <tmp3 >tmp33
 d=`date +%F-%H-%M-%S`
