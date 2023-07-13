@@ -39,7 +39,7 @@ iteration_numbers[5]=bakdata[6]
 iteration_numbers[6]=bakdata[4]
 #print(iteration_numbers)
 # remove data will not be shown in the paper
-#iteration_numbers.drop(iteration_numbers.columns[[6,7]], axis=1, inplace=True )
+iteration_numbers.drop(iteration_numbers.columns[[6,7]], axis=1, inplace=True )
 #print(iteration_numbers)
 #iters=iteration_numbers.to_numpy()
 #x = np.arange(1,9)  # the label locations
@@ -49,7 +49,7 @@ iteration_numbers[6]=bakdata[4]
 plt.rcParams.update({'font.size': FontSize})
 ax=iteration_numbers.plot.bar(rot=0, figsize=(14, 10))
 
-ax.legend(["Contour", "FastSV", "ConnectIt","C-1","C-2","C-m", "C-11mm","C-Syn"])
+ax.legend(["Contour","FastSV", "ConnectIt","C-1","C-2","C-Syn"])
 plt.yscale('log',base=2) 
 #ax.set_yscale('symlog', basey=2)
 
@@ -66,7 +66,6 @@ print(execution_values)
 exetime=execution_values.to_numpy()
 pda=pd.DataFrame(exetime,columns = range(1,9))
 print(pda)
-'''
 bakdata=copy.deepcopy(pda)
 pda[1]=bakdata[3]
 pda[2]=bakdata[1]
@@ -76,12 +75,11 @@ pda[5]=bakdata[6]
 pda[6]=bakdata[4]
 pda.drop(pda.columns[[6,7]], axis=1, inplace=True )
 print(pda)
-'''
 #plt.figure()
 #plt.tight_layout()
 plt.rcParams.update({'font.size': FontSize})
 ax=pda.plot.bar(rot=0, figsize=(14, 10))
-ax.legend(["Contour", "FastSV", "ConnectIt","C-1","C-2","C-m", "C-11mm","C-Syn"])
+ax.legend(["Contour","FastSV", "ConnectIt","C-1","C-2","C-Syn"])
 #ax.set_yscale('symlog', basey=10)
 plt.yscale('log',base=2) 
 plt.ylabel("Execution Time(s)")
@@ -107,12 +105,12 @@ execution_values.drop(execution_values.columns[[6,7]], axis=1, inplace=True )
 print(execution_values)
 '''
 inverse=1/pda
-speedup=inverse.multiply(pda.iloc[:,2], axis=0)
+speedup=inverse.multiply(pda.iloc[:,1], axis=0)
 print(speedup)
 #plt.tight_layout()
 plt.rcParams.update({'font.size': FontSize})
 ax=speedup.plot.bar(rot=0, figsize=(14, 10))
-ax.legend(["Contour", "FastSV", "ConnectIt","C-1","C-2","C-m", "C-11mm","C-Syn"],ncol=4,loc="lower center")
+ax.legend(["Contour","FastSV", "ConnectIt","C-1","C-2","C-Syn"],ncol=6,fontsize="15",loc="lower center")
 #ax.set_yscale('symlog', basey=2)
 plt.yscale('log',base=2) 
 plt.ylabel("Speedup")
