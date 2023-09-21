@@ -26,7 +26,7 @@ def NumVertices(a,b,deg,m,n,scale):
 
 for scale in range(6,43):
     sum=0
-    for i in range(int(math.e*math.log(2)*scale), int(math.sqrt(2**scale))): 
+    for i in range(int(math.e*math.log(2)*scale), int(math.sqrt(2**scale))+1): 
         numVertices=NumVertices(a,b,i,16*2**scale, 2**scale,scale)
         sum=sum+math.comb(i,2)*int(numVertices)
         #print("degree =",i, " number of vertices=",int(numVertices)," sum=",sum)
