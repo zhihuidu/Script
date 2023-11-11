@@ -1,7 +1,7 @@
 from numpy import random
 import numpy as np
 import math
-N=15
+N=2047
 A=[0]
 M=[0]
 for i in range(N):
@@ -45,7 +45,8 @@ while y<0:
      M=NewM[:]
      i=i+1
      x=1
-     if i>6 :
+     print(math.log(N+1,2)+2)
+     if float(i)>float(math.log(N+1,2)+2.0) :
         y=1
      for j in range(N+1):
          if M[j]>0:
