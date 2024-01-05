@@ -54,7 +54,7 @@ for sub in InducedGS :
     i=i+1
     if maxdia<diameter:
         maxdia=diameter
-print("Graph=",sys.argv[1]," Num of Components=",len(S)," Largest Diameter=",maxdia)
+print("Graph=",sys.argv[1]," Num of Components=",len(InducedGS)," Largest Diameter=",maxdia)
 #diameter = nx.diameter(G)
 #print("Diameter of the graph:", diameter)
 
