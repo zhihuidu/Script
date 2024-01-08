@@ -6,9 +6,9 @@ rm -f tmp22
 grep "The largest diameter " $1| cut -d "=" -f2 |cut -d " " -f2 |tee -a tmp22
 #pr -ts" " --columns $2 tmp2>tmp22
 rm -f tmp3
-grep "Size of the Components  " $1| cut -d "=" -f2 |cut -d " " -f2 |tee -a tmp3
+grep "Size of the Components" $1| cut -d "=" -f2 |cut -d " " -f2 |tee -a tmp3
 #pr -ts" " --columns $2 tmp3>tmp32
-awk 'ORS=NR%2?" ":"\n"' <tmp3 >tmp33
+awk 'ORS=NR%3?" ":"\n"' <tmp3 >tmp33
 d=`date +%F-%H-%M-%S`
 outputname="$1-OutPutData-$d.txt"
 paste tmp11 tmp22 tmp33 -d " " >$outputname
